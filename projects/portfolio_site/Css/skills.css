@@ -61,7 +61,6 @@
   border-radius: 10px;
 }
 
-/* Responsive cho mobile */
 @media (max-width: 768px) {
   .skills-grid {
     grid-template-columns: 1fr;
