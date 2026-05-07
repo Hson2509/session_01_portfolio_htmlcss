@@ -84,7 +84,7 @@
 
 textarea {
   resize: vertical;
-  min-height: 150px;
+  min-height: 120px;
 }
 
 .form-group input:focus,
@@ -111,4 +111,8 @@ textarea {
   background-color: var(--color-secondary);
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(99, 102, 241, 0.2);
+}
+input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
 }
