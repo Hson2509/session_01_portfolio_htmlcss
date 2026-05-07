@@ -57,3 +57,13 @@
   font-size: 0.9rem;
   opacity: 0.6;
 }
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+}
